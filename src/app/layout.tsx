@@ -12,11 +12,26 @@ export const metadata = {
   title: {
     template: "%s - Hope Studios",
   },
-  description: "Hope Studios: the Next.js site builder",
+  description: "Hope Studios: Documentation",
   applicationName: "Hope Studios",
   generator: "Next.js",
   appleWebApp: {
     title: "Hope Studios",
+  },
+  openGraph: {
+    title: "Hope Studios",
+    description: "Hope Studios: Documentation",
+    url: "https://hopestudios.com",
+    siteName: "Hope Studios",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Hope Studios Open Graph Image",
+      },
+    ],
+    type: "website",
   },
   other: {
     "msapplication-TileImage": "/ms-icon-144x144.png",
