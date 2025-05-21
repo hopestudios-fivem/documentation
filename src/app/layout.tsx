@@ -60,7 +60,7 @@ export default async function RootLayout({
             <Footer>MIT {new Date().getFullYear()} © Hope Studios.</Footer>
           }
           editLink="Edit this page on GitHub"
-          docsRepositoryBase="https://github.com/hopestudios-fivem/documentation/blob/main/src/app/docs"
+          docsRepositoryBase="https://github.com/hopestudios-fivem/documentation/blob/main"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
           pageMap={pageMap}
         >
