@@ -1,0 +1,26 @@
+{
+  "name": "example-docs",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build",
+    "dev": "next --turbopack",
+    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "next": "^15.0.2",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "postcss": "^8.5.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "pagefind": "^1.3.0",
+    "typescript": "^5.8.3"
+  }
+}

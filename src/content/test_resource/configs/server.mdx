@@ -1,0 +1,15 @@
+# Server
+
+```lua filename="configs/server.lua"
+Config = {}
+
+---@param message string
+---@param type 'info'|'error'|'warning'|'success'
+---@param playerId number?
+function Config.showNotification(message, type, playerId)
+    local data = { title = 'Information', description = message, type = type }
+
+    if playerId then return TriggerClientEvent('ox_lib:notify', playerId, data) end
+    TriggerEvent('ox_lib:notify', data)
+end
+```

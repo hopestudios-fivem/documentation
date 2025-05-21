@@ -1,0 +1,46 @@
+---
+asIndexPage: true
+---
+
+import { Steps } from "nextra/components";
+
+# Test Resource
+
+Some description about the resource
+
+> [!TIP]
+>
+> Some tip about the resource
+
+> [!NOTE]
+>
+> Some note about the resource
+
+## Installation
+
+<Steps>
+### Install all resource dependencies.
+- [oxmysql](https://github.com/overextended/oxmysql/releases)
+- [ox_lib](https://github.com/overextended/ox_lib/releases)
+
+### Download the resource from the [cfx.re portal](https://portal.cfx.re/)
+
+</Steps>
+
+## Additional Information
+
+To change the notification event/export, you can do so by editing the `config.lua` file.
+
+```lua filename="configs/config.lua" {9-10}
+Config = {}
+
+---@param message string
+---@param type 'info'|'error'|'warning'|'success'
+---@param playerId number?
+function Config.showNotification(message, type, playerId)
+    local data = { title = 'Information', description = message, type = type }
+
+    if playerId then return TriggerClientEvent('ox_lib:notify', playerId, data) end
+    TriggerEvent('ox_lib:notify', data)
+end
+```
