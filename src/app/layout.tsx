@@ -8,7 +8,7 @@ import Link from "next/link";
 import Tebex from "../icons/tebex";
 
 export const metadata = {
-  metadataBase: new URL("https://docs.opestudios.com"),
+  metadataBase: new URL("https://hopestudios.com"),
   title: {
     template: "%s - Hope Studios",
   },
