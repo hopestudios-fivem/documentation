@@ -3,4 +3,9 @@
 /* Optional: import Nextra theme styles */
 @import "nextra-theme-docs/style.css"; /* or nextra-theme-blog/style.css */
 
-@variant dark (&:where(.dark *));
+/* @variant dark (&:where(.dark *)); */
+
+body {
+  --x-color-primary-400: #14c92f;
+  --x-color-primary-600: #14c92f;
+}
