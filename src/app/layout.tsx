@@ -8,7 +8,7 @@ import Link from "next/link";
 import Tebex from "../icons/tebex";
 
 export const metadata = {
-  metadataBase: new URL("https://hopestudios.com"),
+  metadataBase: new URL("https://docs.opestudios.com"),
   title: {
     template: "%s - Hope Studios",
   },
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Hope Studios",
     description: "Hope Studios: Documentation",
-    url: "https://hopestudios.com",
+    url: "https://docs.hopestudios.com",
     siteName: "Hope Studios",
     images: [
       {
