@@ -8,7 +8,7 @@ import Link from "next/link";
 import Tebex from "../icons/tebex";
 
 export const metadata = {
-  metadataBase: new URL("https://hopestudios.com"),
+  metadataBase: new URL("https://docs.hopestudios.eu"),
   title: {
     template: "%s - Hope Studios",
   },
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Hope Studios",
     description: "Hope Studios: Documentation",
-    url: "https://hopestudios.com",
+    url: "https://docs.hopestudios.eu",
     siteName: "Hope Studios",
     images: [
       {
@@ -38,7 +38,7 @@ export const metadata = {
     "msapplication-TileColor": "#fff",
   },
   twitter: {
-    site: "https://hopestudios.com",
+    site: "https://docs.hopestudios.eu",
   },
 };
 
