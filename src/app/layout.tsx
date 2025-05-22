@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Hope Studios",
     description: "Hope Studios: Documentation",
-    url: "https://docs.hopestudios.com",
+    url: "https://hopestudios.com",
     siteName: "Hope Studios",
     images: [
       {
